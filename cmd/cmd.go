@@ -8,6 +8,7 @@ import (
 
 	"github.com/michalfikejs/AdventOfCode23/challenge/day01"
 	"github.com/michalfikejs/AdventOfCode23/challenge/day02"
+	"github.com/michalfikejs/AdventOfCode23/challenge/day03"
 )
 
 var AppName string
@@ -22,6 +23,7 @@ var rootCmd = &cobra.Command{
 func initialize() {
 	day01.AddCommandsTo(rootCmd)
 	day02.AddCommandsTo(rootCmd)
+	day03.AddCommandsTo(rootCmd)
 }
 
 func Execute() {
