@@ -44,5 +44,5 @@ humidity-to-location map:
 
 	result := partB(input)
 
-	require.Equal(t, 30, result)
+	require.Equal(t, 46, result)
 }
