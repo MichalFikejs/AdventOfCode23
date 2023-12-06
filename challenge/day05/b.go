@@ -39,7 +39,6 @@ func partB(challenge *challenge.Input) int {
 				}
 			}
 
-			fmt.Println(tempSeeds)
 			for i := 0; i < len(tempSeeds)/2; i++ {
 				for j := 0; j < tempSeeds[i*2+1]; j++ {
 					seeds = append(seeds, tempSeeds[i*2]+j)
