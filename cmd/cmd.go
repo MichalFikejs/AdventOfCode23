@@ -13,6 +13,8 @@ import (
 	"github.com/michalfikejs/AdventOfCode23/challenge/day05"
 	"github.com/michalfikejs/AdventOfCode23/challenge/day06"
 	"github.com/michalfikejs/AdventOfCode23/challenge/day07"
+	"github.com/michalfikejs/AdventOfCode23/challenge/day08"
+	"github.com/michalfikejs/AdventOfCode23/challenge/day09"
 )
 
 var AppName string
@@ -32,6 +34,8 @@ func initialize() {
 	day05.AddCommandsTo(rootCmd)
 	day06.AddCommandsTo(rootCmd)
 	day07.AddCommandsTo(rootCmd)
+	day08.AddCommandsTo(rootCmd)
+	day09.AddCommandsTo(rootCmd)
 }
 
 func Execute() {
